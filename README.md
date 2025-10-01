@@ -80,3 +80,5 @@ production quality version of 2FA for the users of LuckyNest.
 2. **Do small commits often instead of large commits rarely**
 3. **Always minimise user data in the database and hash it to protect user data**
 4. **Modularise files instead of making large, difficult to maintain files**
+5. **Use DAOs and Service layers instead of mixing concerns**
+6. **Implement CI/CD to standardise code quality**

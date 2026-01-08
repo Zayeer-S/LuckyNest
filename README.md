@@ -15,15 +15,23 @@ PHP, MySQL, JS, HTML and CSS.
 8. **Two-Factor Authentication using Authenticator Apps**
 9. **Various analytics/reports pages** (e.g. financial reports)
 
-## My Contributions (approximately 75% of the project):
+## My Development Contributions (approximately 50% of the project):
 1. **Team Leader and Team Secretary**
-2. **Lead Developer**
-3. **Implemented DatePickers that change colours (green/red) to signal availability**
-4. **Implemented Payments using Stripe API**
-5. **Implemented Deposit Refund Handling**
-6. **Implemented Invoice PDF generation**
-7. **All analytics/reports pages**
-8. **Stored confidential information (e.g. API keys) in environment variables (.env) file**
+2. **Implemented DatePickers that change colours (green/red) to signal availability**
+3. **Implemented Payments using Stripe API**
+4. **Implemented Deposit Refund Handling**
+5. **Implemented Invoice PDF generation**
+6. **All analytics/reports pages**
+7. **Stored confidential information (e.g. API keys) in environment variables (.env) file**
+
+## My Leadership Contributions
+1. Led a mixed-experience team by adapting development process (Agile-style iterations) to continuous feedback from a non-technical stakeholder, ensuring requirements were correctly interpreted and delivered
+2. Made a deliberate architectural decision to avoid frameworks, prioritising team accessibility and onboarding speed over tooling complexity to maximise collective contribution
+3. Identified and mitigated a potential security risk through code reviews by enforcing environment-based secret management (.env), preventing API key exposure in version control
+4. Prevented potential API key exposure by guiding a teammate to apply secure environment configuration via .env
+5. Introduced anonymous peer assessment to ensure fair contribution evaluation and improve accountability
+6. Unblocked a teammate struggling with the Trello API by breaking the integration into smaller, testable steps and walking through the request/response flow, enabling on-time feature delivery
+
 
 ## Setup:
 ### FIRSTLY CREATE YOUR OWN ".env" FILE IN THE WEBROOT
